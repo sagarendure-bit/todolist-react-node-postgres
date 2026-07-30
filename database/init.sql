@@ -1,0 +1,6 @@
+```sql
+CREATE TABLE IF NOT EXISTS todos (
+    id SERIAL PRIMARY KEY,
+    todo VARCHAR(50) NOT NULL
+);
+```
